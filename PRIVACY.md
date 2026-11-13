@@ -27,4 +27,4 @@ O Liso não contorna proteção de conteúdo. Vídeos com DRM (por exemplo, Netf
 
 ## Contato
 
-Dúvidas sobre privacidade: `<E-MAIL DE CONTATO>` <!-- preencher antes de publicar -->
+Dúvidas sobre privacidade: `kaue.malheiros@gmail.com`
