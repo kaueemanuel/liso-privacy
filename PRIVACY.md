@@ -1,30 +1,30 @@
-# Política de privacidade — Liso
+# Liso privacy policy
 
-_Última atualização: 12 de novembro de 2026_
+_Last updated: November 13, 2026_
 
-O Liso é uma extensão do Chrome que deixa vídeos mais fluidos gerando quadros intermediários na GPU do seu próprio computador.
+Liso is a Chrome extension that makes video smoother by drawing in-between frames on your own computer's GPU.
 
-## Dados coletados
+## Data collected
 
-**Nenhum.** O Liso não coleta, armazena, vende nem transmite dados pessoais ou de navegação.
+**None.** Liso doesn't collect, store, sell or send any personal or browsing data.
 
-- **Vídeo:** os quadros do vídeo que você está assistindo são processados **apenas localmente**, na memória da sua GPU, para gerar os quadros intermediários. Nenhuma imagem, áudio ou informação sobre o vídeo sai do seu computador.
-- **Sites:** a extensão roda nas páginas que você abre para encontrar elementos `<video>`. Ela não lê o conteúdo da página, formulários, senhas ou histórico, e não registra quais sites você visita.
-- **Configurações:** suas preferências (ligado/desligado, taxa de saída, qualidade, sincronização de áudio, opções de debug e a lista de sites bloqueados) ficam em `chrome.storage.sync`. Se a sincronização do Chrome estiver ativa, o próprio Chrome as sincroniza entre seus dispositivos pela sua conta Google; o Liso não tem acesso a esse serviço nem a nenhum servidor próprio.
-- **Rede:** a extensão não faz nenhuma requisição de rede.
+- **Video:** the frames of the video you're watching are processed **only on your computer**, in your GPU's memory, to draw the in-between frames. No image, sound or information about the video leaves your computer.
+- **Sites:** the extension runs on the pages you open to find `<video>` elements. It doesn't read page text, forms, passwords or history, and doesn't record which sites you visit.
+- **Settings:** your preferences (on/off, output rate, quality, audio sync, appearance, language, diagnostics options and the list of sites where it's off) are kept in `chrome.storage.sync`. If Chrome sync is on, Chrome itself syncs them across your devices through your Google account; Liso has no access to that service and runs no server of its own.
+- **Network:** the extension makes no network requests.
 
-## Permissões
+## Permissions
 
-| Permissão | Por quê |
+| Permission | Why |
 |---|---|
-| Acesso aos sites (script de conteúdo em todas as páginas) | Encontrar os vídeos da página e desenhar a versão interpolada por cima deles. |
-| `storage` | Guardar suas preferências. |
-| `activeTab` | No popup, mostrar o endereço da aba atual para o botão "Bloquear este site". |
+| Site access (content script on all pages) | Find the videos on the page and draw the smoothed version over them. |
+| `storage` | Keep your preferences. |
+| `activeTab` | In the popup, show the current tab's address for the "Run on this site" switch and ask its video for live status. |
 
-## Conteúdo protegido (DRM)
+## Protected content (DRM)
 
-O Liso não contorna proteção de conteúdo. Vídeos com DRM (por exemplo, Netflix, Prime Video, Crunchyroll) não são processados: o navegador não expõe esses quadros e a extensão simplesmente não atua neles.
+Liso doesn't get around content protection. DRM-protected video (for example Netflix, Prime Video, Crunchyroll) isn't processed: the browser doesn't expose those frames, and the extension simply leaves them alone.
 
-## Contato
+## Contact
 
-Dúvidas sobre privacidade: `kaue.malheiros@gmail.com`
+Privacy questions: `kaue.malheiros@gmail.com`
